@@ -191,6 +191,26 @@ nav .fa {
     width: 100%;
 }
 
+/*  SEEU LINK  */
+
+.SEEU{
+  color: antiquewhite;
+  background-color: transparent;
+  transition-duration: 500ms;
+  text-decoration: none;
+  /*transition-property: text-decoration;*/
+}
+
+.SEEU:hover {
+background-color: rgba(0, 0, 0, 1.0);
+}
+
+.SEEU:visited {
+  color: antiquewhite;
+  background-color: transparent;
+}
+
+
 .text-box {
     width: 80%;
     color: antiquewhite;
@@ -203,22 +223,22 @@ nav .fa {
 
 .text-box h1 {
     font-family: "Amatic SC", cursive;
-    font-size: 300%;
+    font-size: 350%;
 }
 
 .text-box p {
-    font-size: 100%;
+    font-size: 150%;
     margin: 10px 0 40px;
     color: #fff;
 }
 
-.fluffcake-btn {
+.stpd-btn {
     display: inline-block;
     text-decoration: none;
     color: antiquewhite;
     border: 1px solid #fff;
     padding: 12px 34px;
-    font-size: 100%;
+    font-size: 150%;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -226,7 +246,7 @@ nav .fa {
     border-radius: 5px;
 }
 
-.fluffcake-btn:hover {
+.stpd-btn:hover {
     border: 1px solid rgb(255, 71, 178);
     background: rgb(255, 71, 178);
     /* font-size: 17px; */
@@ -288,6 +308,14 @@ nav .fa {
     font-size: 2vw;
 }
 
+.popup-bod img {
+    object-fit: scale-down;
+    border: 3px dashed rgba(250, 235, 215, 0.52);
+    border-radius: 10px;
+    max-width: 250px;
+    margin-bottom: auto;
+}
+
 #overlay {
     position: fixed;
     top: 0;
@@ -328,15 +356,15 @@ nav .fa {
     padding: 10px;
 }
 
-/*--------qualities--------*/
+/*--------motos--------*/
 
-.qualities {
+.motos {
     margin: 5%;
     display: flex;
     justify-content: space-between;
 }
 
-.quality {
+.moto {
     flex-basis: 31%;
     background: #ffc1ec;
     border-radius: 10px;
@@ -346,34 +374,35 @@ nav .fa {
     transition: 0.5s;
 }
 
-.quality h1 {
+.moto h1 {
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
 }
 
-.quality:hover {
+.moto:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-/*--------Flavours--------*/
+/*--------projects--------*/
 
-.flavours {
+.projects {
     margin: 5%;
     display: flex;
     justify-content: space-between;
 }
 
-.flavour {
+.project {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
     /*padding-bottom: 5px;*/
     position: relative;
     overflow: hidden;
 }
 
-.flavour img {
+.project img {
     width: 100%;
     display: block;
 }
@@ -411,58 +440,7 @@ nav .fa {
     opacity: 1;
 }
 
-/*------------------Reviews------------------*/
 
-.reviews {
-    justify-content: space-between;
-    margin: 5%;
-    display: flex;
-}
-
-.review {
-    flex-basis: 47%;
-    border-radius: 10px;
-    text-align: left;
-    margin-bottom: 10px;
-    background: #ffc1ec;
-    padding: 15px;
-    cursor: pointer;
-    box-sizing: border-box;
-    display: flex;
-}
-
-.review img {
-    height: 55px;
-    margin-left: 5px;
-    margin-right: 30px;
-    border-radius: 50%;
-}
-
-.reviewer {
-    font-family: "Noto Sans JP", sans-serif;
-    margin: 2.5% 0 2.5% 0;
-    text-align: left;
-}
-
-.feedback {
-    font-family: "Noto Sans JP", sans-serif;
-    padding: 0;
-}
-
-.review .fa {
-    color: #ff3381;
-}
-
-#plus {
-    font-size: 12px;
-}
-
-#hlf-str {
-    font-size: 20px;
-    background: -webkit-linear-gradient(left top, #ffc1ec, #ff4ae7, #ff3381);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 /*------------------Call for action------------------*/
 
@@ -515,6 +493,7 @@ nav .fa {
 
 .footer-icons .fa {
     color: #ff4ae7;
+    font-size: 20px;
 }
 /*------------------Alternative------------------*/
 /*---------------------Size----------------------*/
@@ -538,13 +517,13 @@ nav .fa {
         font-weight: 600;
         transition: 0.5s;
     }
-    /*--------qualities--------*/
-    .qualities {
+    /*--------motos--------*/
+    .motos {
         flex-direction: column;
     }
 
-    /*--------flavours--------*/
-    .flavours {
+    /*--------projects--------*/
+    .projects {
         flex-direction: column;
     }
 
@@ -568,7 +547,7 @@ nav .fa {
         font-size: 90%;
     }
 
-    .fluffcake-btn {
+    .stpd-btn {
         font-size: 80%;
     }
 

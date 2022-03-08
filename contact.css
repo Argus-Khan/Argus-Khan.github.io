@@ -1,0 +1,26 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Yomogi", cursive;
+}
+
+.main-sec {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10%;
+    justify-content: center;
+}
+
+.contact-canvas {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    transform: translate(-50%, -50%);
+    transform: skew(5deg);
+    border-radius: 10px;
+    background: #555;
+
+}

@@ -1,21 +1,175 @@
-<!DOCTYPE  html>	
-<html>	
-<head>	
-<title>Argus Khan</title>
-<meta name="author" content="name">	
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="Style-format.css" type="text/css">	
-</head>	
+<!-- 
+ _________________________________________
+/ Hello traveller! What brings you to the \
+\ hidden realm?                           /
+ -----------------------------------------
+            \    (__)      
+            \    /oo|  
+            \   (_"_)*+++++++++*
+                    //I#\\\\\\\\I\
+                    I[I|I|||||I I `
+                    I`I'///'' I I
+                    I I       I I
+                    ~ ~       ~ ~
+-->
 
-<body>	
-<div>	
-<header>	
-  <h1>Sorry! Site under maintenance!</h1>
-</header>	
+<!DocType html>
+<html lang="en">
 
-<footer>
-</footer>	
-</div>	
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <script defer src="./popup-btn.js"></script>
 
-</body>	
-</html	
+    <link rel="icon" href="./resources/1024px-Video-Game-Controller-Icon-IDV-green.svg.png" type="image/png"
+        sizes="16x16">
+    <title>Argus-Khan</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="https://morphykun0vvv0.itch.io/"><img id="site_icon"
+                    src="./resources/1024px-Video-Game-Controller-Icon-IDV-green.svg.png"></a>
+            <div class="nav_links" id="navLinks">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="./no_no.html">Projects (Don't Click)</a></li>
+                                <li><a href="./no_no.html">Life (Don't Click)</a></li>
+                                <li><a href="./no_no.html">Hobbies (Don't Click)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="text-box">
+            <h1>Hey there! I'm Argus </h1>
+            <p>I'm a tech hobbyist, who makes video games in my free time or just messes-around with my Linux installation. I am currently a BS(Computer Science) student at
+                South East European University (<a class="SEEU" href="https://www.seeu.edu.mk/">SEEU</a>), and aiming to be a professional game developer some and own my own game studio 'cause you gotta have dreams right?
+                <br><br><br>
+
+            <input type="button" class="stpd-btn" value="Install Virus" onclick="showPopup()">
+        </div>
+
+        <div class="popup" id="popup">
+            <div class="popup-head">
+                <button class="cls-btn" onclick="hidePopup()"> <i class="fa fa-times"></i> </button>
+            </div>
+            <div class="popup-bod">
+                <h2>Just kidding.</h2>
+                <p>You are either really brave or really stupid if you actually clicked on this button, Or maybe you trust
+                    me a lot, in which case, thanks mate!</p>
+                <br><br><br>
+                <center><img src="./resources/hehe.gif"></center>
+            </div>
+        </div>
+
+        <div id="overlay"></div>
+    </section>
+
+
+    <!-- <section class=" secs" id="moto-sec">
+        <h1 class="sec-heading">My life's moto</h1>
+        <p class="sec-intro"></p>
+
+        <div class="motos">
+
+            <div class="moto">
+                <h1>Be Kind</h1>
+                <p>
+                    Life is rarely kind to people. Most spend their entire life looking for any semblance of kindness offered to them but never receive it. Neither from life nor from people. Maybe it's the same for you. But you know what? You have the opportunity to give people what they need, so why not be that one person in their lives who gave them what they desperately needed? You may or may never be able to change the world but you can make someone's life a little better by just showing them a little kindness. 
+                </p>
+            </div>
+
+            <div class="moto">
+                <h1>Be Honest</h1>
+                <p>I believe it's necessary to be honest in life. It's hard to trust people and even harder to trust their truth. Life is simple when you are not occupied with building up a façade for the people just to be liked by them. Be your genuine self. Personally I'd rather be a honest evil person than a fake neutral person and want the same from people. As I like to say to my acquaintances, "I don't mind if anyone wishes me ill or takes advantage of me, I'll still respect them as long as they are honest about it." 
+                </p>
+            </div>
+
+            <div class="moto">
+                <h1>Be Helpful</h1>
+                <p>As social animals, our worth is often determined by what we can offer to others. After all, our human civilization is build up on the foundation of cooperation. Unless you are insanely rich or a celebrity, the more helpful you are to others, the more you are valued as a member of the human society. It's one of easiest way to be liked and respected by others. Plus it's just plain delightful when you are able to help someone in need.    
+                </p>
+            </div>
+
+
+        </div>
+
+    </section>
+ -->
+    <section class="secs" id="projects-sec">
+        <h1 class="sec-heading">My Projects...</h1>
+        <p class="sec-intro"></p>
+
+        <div class="projects">
+
+            <div class="project" id="hot">
+                <img src="./resources/Nenji.png">
+                <div class="overlay">
+                <a href="https://morphykun0vvv0.itch.io/nenji"><h3>Nenji</h3></a>
+                </div>
+            </div>
+
+            <div class="project" id="cute">
+                <img src="./resources/Snitcher.jpg">
+                <div class="overlay">
+                <a href="https://github.com/Argus-Khan/Snitcher"><h3>Snitcher</h3></a>
+                </div>
+            </div>
+
+            <div class="project" id="goofy">
+                <img src="./resources/Novel.png">
+                <div class="overlay">
+                <a href="https://www.wattpad.com/story/233183793-demonic-blood"><h3>Demonic Blood</h3></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="call-for-action">
+
+        <h1 class="sec-heading" id="cfa-head">Would you like to hire me?<br>Get in
+            touch!
+        </h1>
+
+        <a class="stpd-btn" href="./contact.html">Contact</a>
+
+    </section>
+
+    <section class="secs">
+        <h1 id="abt-head">Learn More About Me</h1>
+        <p id="abt-para">Although I am primarily an indie game dev I sometimes do other unnecessary things too which you can find on any of my socials and not-so-socials.</p>
+        <div class="footer-icons">
+            <a href="https://twitter.com/morphy0vvv0"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/Argus-Khan"><i class="fa fa-github"></i></a>
+            <a href="https://www.facebook.com/morphy.kun.0vvv0/"><i class="fa fa-facebook"></i></a>
+        </div>
+        <p id="last-para"> All rights reserved.</p>
+    </section>
+
+
+</body>
+
+</html>
